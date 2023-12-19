@@ -7,7 +7,7 @@ import axios from "axios";
 
 function AllBeersPage() {
   // Mock initial state, to be replaced by data from the API. Once you retrieve the list of beers from the Beers API store it in this state variable.
-  const [beers, setBeers] = useState([]);
+  const [beers, setBeers] = useState([beersJSON]);
 
   useEffect(() => {
     const apiUrl = "https://ih-beers-api2.herokuapp.com/beers";
